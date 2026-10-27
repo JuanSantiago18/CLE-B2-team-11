@@ -37,14 +37,26 @@ body {
 }
 
 .main {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
     gap: 30px;
     justify-content: left;
 }
 
-.sp1 {
-    height: 300px;
-    width: 300px;
-    border-radius: 15px;
+.smallText {
+    color: #365E84;
+    font-family: Inter Semi Bold (600);
+    font-weight: bold;
+}
+
+.main2 {
+    padding: 20px;
+}
+
+.main2 h1 {
+    color: #202C39;
+    font-family: Inter Semi Bold (600);
 }
