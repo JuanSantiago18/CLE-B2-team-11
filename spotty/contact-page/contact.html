@@ -3,56 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="contact.css">
 
     <title>Document</title>
 </head>
 <body>
-<nav></nav>
-<main>
-    <div>
-        <h1 class="main-text"> CONTACT </h1>
-
-    </div>
-
-    <form>
-        <div class="name">
-            <div>
-                <label for="first-name"> first name:</label>
-                <input type="text" id="first name" name="first-name">
+    <header>
+        <section class="navBar">
+            <div class="navLeft">
+                <h1 class="title">Spotty</h1>
             </div>
-            <div>
-                <label for="first-name"> last name:</label>
-                <input type="text" id="first name" name="first-name">
+
+            <div class="navRight">
+                <a href="">Home</a>
+                <a href="">Contact</a>
             </div>
+        </section>
+    </header>
+    <main> 
+        <div>
+            <h1 class="main-text"> CONTACT </h1>
+
         </div>
+        <section class="form-container">
+        <form>
+            <div>
+            <label for = "first-name"> first name:</label>
+            <br>
+            <input type="text" id= "first name" name="first-name">
+            <br>
+            <br>
 
-        <br>
+            <label for = "first-name"> last name:</label>
+            <br>
+            <input type="text" id= "first name" name="first-name">
 
-        <div class="email-adres">
-            <label for="email"> email-adres:</label>
+            </div>
+
+            <br>
+
+            <div class="email-adres">
+            <label for = "email"> email-adres:</label>
+            <br>
             <input type="text" name="email">
-        </div>
+            </div>
 
-        <br>
+            <br>
 
-        <div>
-            <label for="nummer"> telefoonnnumer:</label>
+            <div>
+            <label for = "nummer"> telefoonnnumer:</label>
+            <br>
             <input type="text" name="nummer">
-        </div>
+            </div>
+            
+            <br>
 
-        <br>
-
-        <div>
-            <label for="plaats"> woonplaats:</label>
+            <div>
+             <label for = "plaats"> woonplaats:</label>
+             <br>
             <input type="text" name="plaats">
-        </div>
+            </div>
+
+            <br>
+
+            <label for = "street"> straat:</label>
+            <br>
+            <input type="text" name="street" >
+
+            <br>
+            <br>
 
 
-    </form>
-</main>
-<footer></footer>
+            <label for = "streetnumber"> huis nummer:</label>
+            <br>
+            <input type="text" name="streetnumber" >
+            </div>
+
+            <br>
 
 
+            <br>
+
+             <div class=" field">
+             <label for = "birthdate"> geboortedatum:</label>
+             <br>
+            <input type="date" name="birthdate" id="birthdate" required>
+             </div>
+
+             <br>
+
+             
+                <legend> Gender</legend>
+                <div class="choices">
+                    <label class="choice">
+                        <input type="radio" name="genderkeuze" id="Man" value="Man">
+                        <span>Man</span>
+                    </label>
+                    <label class="choice">
+                        <input type="radio" name="genderkeuze" id="Vrouw" value="Women">
+                        <span>Vrouw</span>
+                    </label>
+
+                    <label class="choice">
+                        <input type="radio" name="genderkeuze" id="no comment" value="no comment">
+                        <span>geen keuze</span>
+                    </label>
+                </div>
+
+                <br>
+
+                <div class="field full"></div>
+                <label for="message"> Bericht</label>
+                <br>
+                <textarea name="message" id="message" required></textarea>
+
+                <br>
+
+                <div class="full">
+                    <button class="red-button" type="submit"> Verzenden</button>
+
+                </div>
+
+        
+
+
+
+
+
+             
+
+
+
+
+            
+
+        </form>
+        </section>
+    </main>
+    <footer></footer>
+   
 </body>
 </html>
