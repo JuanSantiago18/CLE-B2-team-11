@@ -22,7 +22,6 @@ body p {
 
 
 .navRight {
-    align-content: right;
     display: inline-flex;
     gap: 20px;
 }
@@ -106,7 +105,7 @@ body p {
 .main-text{
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    padding-bottom: 30px;
 }
 
 .separator {
