@@ -1,26 +1,29 @@
 body {
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 10px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+body p {
+    color: #202C39;
 }
 
 .navBar {
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 0;
+    padding-right: 0;
     align-items: center;
     height: 50px;
     border-bottom: black solid 1px;
-
 }
 
-.navLeft {
-    padding: 20px;
-}
+.navLeft {}
 
 .navRight {
-    padding: 20px;
+    align-content: right;
     display: inline-flex;
     gap: 20px;
 }
@@ -50,12 +53,18 @@ body {
 
 .main {
     margin-top: 5px;
-    padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
     display: flex;
     flex-direction: column;
     margin-bottom: 60px;
     padding-bottom: 10px;
 
+}
+
+.headtext {
+    font-size: 50px;
+    font-weight: 540;
 }
 
 .smallText {
@@ -84,11 +93,11 @@ body {
 
 .main2 {
     display: flex;
-    padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
     gap: 30px;
     margin-bottom: 15px;
-    border-bottom: black solid 1px;
-    background-color: #F3F6F9;
+    background-color: #365E84;
 }
 
 .Main2Left {
@@ -117,9 +126,16 @@ body {
     border-radius: 15px;
 }
 
+.premain4 {
+    margin-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 .main4 {
     display: flex;
     margin-top: 15px;
+    gap: 20px;
 }
 
 .m4one {
@@ -132,4 +148,56 @@ body {
 
 .m4three {
     flex: 1;
+}
+
+.main5 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main5left {
+    flex: 1;
+}
+
+.main5right {
+    flex: 2;
+}
+
+.main6 {
+    display: flex;
+}
+
+.main6left {
+    flex: 2;
+}
+
+.main6right {
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+}
+
+.main6right a {
+    align-self: flex-start;
+    background-color: #;
+    border-radius: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.main6right a:hover {
+    align-self: flex-start;
+    background-color: darkgray;
+    border-radius: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: #365E84;
+}
+
+.main7 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }

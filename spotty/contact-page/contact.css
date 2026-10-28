@@ -1,0 +1,21 @@
+.main-text {
+    text-align: center;
+    padding: 80px;
+}
+
+.email-adres input {
+    width: 250px;
+}
+
+div.name {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 520px) {
+    div.name {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
