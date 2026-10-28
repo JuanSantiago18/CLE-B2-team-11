@@ -1,0 +1,51 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 50px;
+    border-bottom: black solid 1px;
+
+}
+
+.navLeft {
+    padding: 20px;
+}
+
+.navRight {
+    padding: 20px;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.navRight a:nth-child(2) {
+    color: #365E84;
+    font-weight: bold;
+}
+
+.navBar a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.navBar a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.main-text{
+    text-align : center;
+    padding: 80px;
+}
+
+.email-adres input{
+    width: 250px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
