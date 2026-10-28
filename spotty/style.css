@@ -20,7 +20,6 @@ body p {
     border-bottom: black solid 1px;
 }
 
-.navLeft {}
 
 .navRight {
     align-content: right;
@@ -72,7 +71,6 @@ body p {
     font-family: Inter Semi Bold (600);
     font-weight: bold;
 }
-
 .main a {
     align-self: flex-start;
     background-color: #365E84;
@@ -93,19 +91,39 @@ body p {
 
 .main2 {
     display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 200px;
     padding-right: 200px;
-    gap: 30px;
     margin-bottom: 15px;
-    background-color: #365E84;
+    background-color: #EBF1F5;  
 }
 
 .Main2Left {
     flex: 2;
 }
 
+.main-text{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-bottom: #cfd0d1 solid 1px;
+}
+
 .Main2Right {
     flex: 1;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img{
+    width: 300px;
 }
 
 .m2Right {
@@ -180,10 +198,10 @@ body p {
 
 .main6right a {
     align-self: flex-start;
-    background-color: #;
     border-radius: 15px;
     padding: 15px;
     text-decoration: none;
+    background-color: #365E84;
     color: white;
 }
 
@@ -193,7 +211,6 @@ body p {
     border-radius: 15px;
     padding: 15px;
     text-decoration: none;
-    color: #365E84;
 }
 
 .main7 {
