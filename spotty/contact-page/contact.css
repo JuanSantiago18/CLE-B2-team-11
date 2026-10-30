@@ -1,3 +1,28 @@
+.title{
+   font-family: 'Inter', sans-serif;
+   font-size: 20px;
+}
+.navRight{
+   font-family: 'Inter', sans-serif;
+   font-size: 15px;
+}
+
+.main-text {
+    text-align: center;
+    padding: 80px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.form-text{
+     font-family: 'Inter', sans-serif;
+
+}
+
+.form-container{
+     font-family: 'Inter', sans-serif;
+}
+
 .navBar {
     display: flex;
     justify-content: space-between;
@@ -31,11 +56,6 @@
     color: white;
     padding: 10px;
     border-radius: 15px;
-}
-
-.main-text {
-    text-align: center;
-    padding: 80px;
 }
 
 h2 {
