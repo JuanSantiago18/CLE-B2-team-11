@@ -1,11 +1,14 @@
+body {
+    background-color: #EBF1F5;
+}
+
 .navBar {
     display: flex;
     justify-content: space-between;
     margin: auto;
     align-items: center;
     height: 50px;
-    border-bottom: black solid 1px;
-
+    border-bottom: #cfd0d1 solid 1px;
 }
 
 .navLeft {
@@ -26,11 +29,11 @@
 .navBar a {
     display: flex;
     text-decoration: none;
-    color: black;
+    color: #202C39;
 }
 
 .navBar a:hover {
-    background-color: black;
+    background-color: #365E84;
     color: white;
     padding: 10px;
     border-radius: 15px;
@@ -43,9 +46,54 @@
 
 .email-adres input{
     width: 250px;
+    border: 1px solid #cfd0d1;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.email-adres input:focus {
+    border-color: #365E84;
+    outline: none;
 }
 
 .form-container {
     display: flex;
     justify-content: center;
+    background-color: #EBF1F5;
+    border-radius: 1rem;
+    padding: 40px 0;
+}
+
+label {
+    color: #202C39;
+    font-weight: 500;
+}
+
+input, textarea {
+    border: 1px solid #cfd0d1;
+    border-radius: 6px;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    border-color: #365E84;
+    outline: none;
+}
+
+.red-button {
+    background-color: #365E84;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.red-button:hover {
+    background-color: darkgray;
+    color: #365E84;
 }
