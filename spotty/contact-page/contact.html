@@ -3,34 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="contact.css">
 
-    <title>Document</title>
+    <title>Spotty - Contact</title>
 </head>
+
 <body>
-    <header>
-        <section class="navBar">
-            <div class="navLeft">
-                <h1 class="title">Spotty</h1>
-            </div>
 
-            <div class="navRight">
-                <a href="">Home</a>
-                <a href="">Contact</a>
-            </div>
-        </section>
-    </header>
-    <main> 
-        <div>
-            <h1 class="main-text"> CONTACT </h1>
-
+<header>
+    <nav class="navBar">
+        <div class="navLeft">
+            <h1 class="title">Spotty</h1>
         </div>
-        <section class="form-container">
+
+        <div class="navRight">
+            <a href="../index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div>
+        <h1 class="main-text">CONTACT</h1>
+    </div>
+
+    <div>
+        <h2>Form</h2>
+    </div>
+
+    <section class="form-container">
         <form>
             <div>
             <label for = "first-name"> first name:</label>
             <br>
-            <input type="text" id= "first name" name="first-name" required>
+            <input type="text" id= "first name" name="first-name">
             <br>
             <br>
 
@@ -40,107 +47,80 @@
 
             </div>
 
-            <br>
-
-            <div class="email-adres">
-            <label for = "email"> email-adres:</label>
-            <br>
-            <input type="text" name="email">
+            <div class="form-field">
+                <label for="last-name">Achternaam:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Achternaam" required>
             </div>
 
-            <br>
-
-            <div>
-            <label for = "nummer"> telefoonnnumer:</label>
-            <br>
-            <input type="text" name="nummer">
-            </div>
-            
-            <br>
-
-            <div>
-             <label for = "plaats"> woonplaats:</label>
-             <br>
-            <input type="text" name="plaats">
+            <div class="form-field email-adres">
+                <label for="email">Email-adres:</label>
+                <input type="email" id="email" name="email" placeholder="Someone@hr.nl" required>
             </div>
 
-            <br>
-
-            <label for = "street"> straat:</label>
-            <br>
-            <input type="text" name="street" >
-
-            <br>
-            <br>
-
-
-            <label for = "streetnumber"> huis nummer:</label>
-            <br>
-            <input type="text" name="streetnumber" >
+            <div class="form-field">
+                <label for="phone-number">Telefoonnummer:</label>
+                <input type="text" id="phone-number" name="phone-number" placeholder="Telefoonnummer">
             </div>
 
-            <br>
+            <div class="form-field">
+                <label for="City">Woonplaats:</label>
+                <input type="text" id="City" name="City" placeholder="Woonplaats">
+            </div>
 
+            <div class="form-field">
+                <label for="street">Straat:</label>
+                <input type="text" id="street" name="street" placeholder="Straat">
+            </div>
 
-            <br>
+            <div class="form-field">
+                <label for="house-number">Huisnummer:</label>
+                <input type="text" id="house-number" name="house-number" placeholder="Huisnummer">
+            </div>
 
-             <div class=" field">
-             <label for = "birthdate"> geboortedatum:</label>
-             <br>
-            <input type="date" name="birthdate" id="birthdate" required>
-             </div>
+            <div class="form-field">
+                <label for="birth-date">Geboortedatum:</label>
+                <input type="date" id="birth-date" name="birth-date" placeholder="Geboortedatum">
+            </div>
 
-             <br>
+            <div class="form-field">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="" disabled selected>Gender</option>
+                    <option value="man">Man</option>
+                    <option value="woman">Vrouw</option>
+                    <option value="other">Anders</option>
+                </select>
+            </div>
 
-             
-                <legend> Gender</legend>
-                <div class="choices">
-                    <label class="choice">
-                        <input type="radio" name="genderkeuze" id="Man" value="Man">
-                        <span>Man</span>
-                    </label>
-                    <label class="choice">
-                        <input type="radio" name="genderkeuze" id="Vrouw" value="Women">
-                        <span>Vrouw</span>
-                    </label>
+            <div class="form-field">
+                <label for="subject">Onderwerp:</label>
+                <select id="subject" name="subject">
+                    <option value="" disabled selected>Kies onderwerp van het bericht..</option>
+                    <option value="question">Vraag</option>
+                    <option value="problem">Probleem</option>
+                    <option value="help">Hulp</option>
+                    <option value="other">Anders</option>
+                </select>
+            </div>
 
-                    <label class="choice">
-                        <input type="radio" name="genderkeuze" id="no comment" value="no comment">
-                        <span>geen keuze</span>
-                    </label>
-                </div>
+            <div class="form-field">
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message" placeholder="Uw bericht hier..." required></textarea>
+            </div>
 
-                <br>
+            <div class="form-field">
+                <label for="agree">Ik ga akkoord met de algemene voorwaarden</label>
+                <input type="checkbox" id="agree" name="agree" required>
+            </div>
 
-                <div class="field full"></div>
-                <label for="message"> Bericht</label>
-                <br>
-                <textarea name="message" id="message" required></textarea>
-
-                <br>
-
-                <div class="full">
-                    <button class="red-button" type="submit"> Verzenden</button>
-
-                </div>
-
-        
-
-
-
-
-
-             
-
-
-
-
-            
-
+            <div class="form-field">
+                <button type="submit" id="send-to" name="send-to">Versturen</button>
+            </div>
         </form>
-        </section>
-    </main>
-    <footer></footer>
-   
+    </section>
+</main>
+
+<footer></footer>
+
 </body>
 </html>

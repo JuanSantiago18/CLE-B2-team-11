@@ -22,7 +22,6 @@ body p {
 
 
 .navRight {
-    align-content: right;
     display: inline-flex;
     gap: 20px;
 }
@@ -68,9 +67,10 @@ body p {
 
 .smallText {
     color: #365E84;
-    font-family: Inter Semi Bold (600);
-    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
+
 .main a {
     align-self: flex-start;
     background-color: #365E84;
@@ -96,17 +96,17 @@ body p {
     padding-bottom: 50px;
     padding-left: 200px;
     padding-right: 200px;
-    background-color: #EBF1F5;  
+    background-color: #EBF1F5;
 }
 
 .Main2Left {
     flex: 2;
 }
 
-.main-text{
+.main-text {
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    padding-bottom: 30px;
 }
 
 .separator {
@@ -120,18 +120,18 @@ body p {
     padding: 10px 30px 10px 30px;
 }
 
-.image-container{
+.image-container {
     display: flex;
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 40px;
 }
 
-.image-container img{
+.image-container img {
     width: 350px;
 }
 
-.image-text-container{
+.image-text-container {
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
@@ -214,6 +214,7 @@ body p {
 .main5left h2 {
     font-size: 1.5rem;
 }
+
 .main5right p {
     font-size: 1.3rem;
     color: #6B7280;
@@ -254,11 +255,12 @@ body p {
     justify-content: space-between;
     margin-top: 50px;
 }
-.main7 p{
+
+.main7 p {
     color: #6B7280;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     background-color: #EBF1F5;
@@ -269,7 +271,7 @@ footer{
     font-size: 18px;
     font-weight: 600;
     color: #202C39;
-    
+
 }
 
 .social-icons {
