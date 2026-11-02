@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 
-html,
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    overflow-x: hidden;
     font-family: 'Inter', sans-serif;
 }
 
@@ -22,42 +23,60 @@ body p {
     width: 100%;
     padding: 0 10px;
     height: 50px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+}
+
+.sitelogo {
+    height: 30px;
+    width: 90px;
+}
+
+.navMiddle {
+    display: flex;
+    gap: 5px;
 }
 
 .navRight {
-<<<<<<< HEAD
     display: inline-flex;
     gap: 20px;
-=======
     display: flex;
     align-items: center;
     gap: 10px;
     white-space: nowrap;
->>>>>>> f369de2 (darkmode + button update)
 }
 
 .navRight a:nth-child(2) {
     color: #365E84;
     font-weight: bold;
-    padding-right: 10px;
+    padding: 10px;
 }
 
-.navMiddle {
-    display: flex;
-    gap: 10px;
+.navRight a:nth-child(2):hover {
+    color: white;
+    background-color: #365E84;
+    font-weight: bold;
+    padding: 10px;
 }
+
 
 .navBar a {
-    display: flex;
+    display: inline-flex;
+    align-items: center;
     text-decoration: none;
     padding: 10px;
     color: black;
+    padding: 10px 16px;
+    border-radius: 15px;
+    box-sizing: border-box;
 }
 
 .navBar a:hover {
     background-color: #365E84;
     color: white;
-    padding: 10px;
+    padding: 10px 16px;
     border-radius: 15px;
 }
 
@@ -68,7 +87,6 @@ body p {
 
 .main {
     margin-top: 5px;
-
     display: flex;
     flex-direction: column;
     margin-bottom: 60px;
@@ -110,7 +128,6 @@ body p {
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
-
     background-color: #EBF1F5;
 }
 
@@ -190,7 +207,6 @@ body p {
 
 .premain4 {
     margin-top: 100px;
-
 }
 
 .main4 {
@@ -239,7 +255,7 @@ body p {
     display: flex;
     background-color: #EBF1F5;
     justify-content: space-between;
-    padding: 30px;
+    padding: 15px;
     border-radius: 1.1rem;
 }
 
@@ -288,9 +304,6 @@ footer {
     font-size: 18px;
     font-weight: 600;
     color: #202C39;
-
-<<<<<<< HEAD
-=======
 }
 
 .footermiddle {
@@ -309,7 +322,20 @@ footer {
     color: white;
     padding: 10px;
     border-radius: 20px;
->>>>>>> a767c86 (darkmode + fast scroll)
+}
+
+.backToTopButton {
+    background-color: #365E84;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.backToTopButton:hover {
+    background-color: #202C39;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .social-icons {
@@ -420,15 +446,10 @@ footer {
     transition: fill 0.3s ease, stroke 0.3s ease;
 }
 
-/* Dark mode */
 .dark-mode .social-icon svg {
     fill: white;
     stroke: #365E84;
 }
-
-
-
-
 
 @media (max-width: 768px) {
 

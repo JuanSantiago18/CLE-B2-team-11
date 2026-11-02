@@ -23,7 +23,12 @@
     <header>
         <nav class="navBar">
             <div class="navLeft">
-                <h1 class="title">Spotty</h1>
+                <img class="sitelogo" src="../spotty/images/sitelogo.png">
+            </div>
+
+            <div class="navMiddle">
+                <a href="#schets">Schets</a>
+                <a href="#hhw">Hoe het werkt</a>
             </div>
 
             <div class="navMiddle">
@@ -225,6 +230,26 @@
                         const element = document.body;
                         element.classList.toggle("dark-mode");
                     }
+                </script>
+            </div>
+
+            <div class="footermiddle">
+                <button class="darkModeButton" onclick="myFunction()">Toggle dark mode</button>
+                <button class="backToTopButton" onclick="backToTop()">Back to top</button>
+
+                <script>
+                    function myFunction() {
+                        let element = document.body;
+                        element.classList.toggle("dark-mode");
+                    }
+
+                    function backToTop() {
+                        window.scrollTo({
+                            top: 0,
+                            behavior: "smooth"
+                        });
+                    }
+
                 </script>
             </div>
 
