@@ -135,7 +135,7 @@ body p {
 .main-text {
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    padding-bottom: 30px;
 }
 
 .separator {
