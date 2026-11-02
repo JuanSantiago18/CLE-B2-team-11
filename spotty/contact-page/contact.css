@@ -74,3 +74,13 @@ h2 {
     flex-direction: column;
     margin-bottom: 1rem;
 }
+
+input:user-invalid:not(:focus):not(:placeholder-shown){
+    border: 2px solid red;
+
+
+}
+
+input:user-valid{
+    border:2px solid black;
+}
