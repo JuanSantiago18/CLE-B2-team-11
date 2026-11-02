@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
 
-    <title>Contact</title>
+    <title>Spotty - Contact</title>
 </head>
+
 <body>
+
 <header>
     <nav class="navBar">
         <div class="navLeft">
-            <h1 class="title">Spotty</h1>
+            <img class="sitelogo" src="../images/sitelogo.png" alt="Spotty Logo">
         </div>
 
         <div class="navRight">
@@ -27,55 +29,54 @@
     </div>
 
     <div>
-        <h2 class="form-text">Form</h2>
+        <h2>Form</h2>
     </div>
 
     <section class="form-container">
         <form>
-            
             <div class="form-field">
                 <label for="first-name">Voornaam:</label>
-                <input type="text" id="first-name" name="first-name" required placeholder="Voornaam" minlength="3">
+                <input type="text" id="first-name" name="first-name" placeholder="Voornaam"   minlength="2" required>
             </div>
-            
+
             <div class="form-field">
                 <label for="last-name">Achternaam:</label>
-                <input type="text" id="last-name" name="last-name" required placeholder="Achternaam" minlength="3">
+                <input type="text" id="last-name" name="last-name" placeholder="Achternaam"  minlength="2" required>
             </div>
 
             <div class="form-field email-adres">
                 <label for="email">Email-adres:</label>
-                <input type="email" id="email" name="email"  required placeholder="Someone@hr.nl">
+                <input type="email" id="email" name="email" placeholder="Someone@hr.nl" required>
             </div>
 
             <div class="form-field">
                 <label for="phone-number">Telefoonnummer:</label>
-                <input type="text" id="phone-number" name="phone-number" required placeholder="Telefoonnummer" pattern="[0-9]{10}">
+                <input type="text" id="phone-number" name="phone-number" placeholder="Telefoonnummer" minlength="10" required>
             </div>
 
             <div class="form-field">
                 <label for="City">Woonplaats:</label>
-                <input type="text" id="City" name="City" required placeholder="Woonplaats"  minlength="5">
+                <input type="text" id="City" name="City" placeholder="Woonplaats" minlength="3" required>
             </div>
 
             <div class="form-field">
                 <label for="street">Straat:</label>
-                <input type="text" id="street" name="street"  required placeholder="Straat"  minlength="10">
+                <input type="text" id="street" name="street" placeholder="Straat" minlength="3" required>
             </div>
 
             <div class="form-field">
                 <label for="house-number">Huisnummer:</label>
-                <input type="text" id="house-number" name="house-number" required placeholder="Huisnummer"  minlength="3">
+                <input type="text" id="house-number" name="house-number" placeholder="Huisnummer" minlength="3" required>
             </div>
 
             <div class="form-field">
                 <label for="birth-date">Geboortedatum:</label>
-                <input type="date" id="birth-date" name="birth-date" required placeholder="Geboortedatum">
+                <input type="date" id="birth-date" name="birth-date" placeholder="Geboortedatum">
             </div>
 
             <div class="form-field">
                 <label for="gender">Gender:</label>
-                <select id="gender" name="gender" required>
+                <select id="gender" name="gender">
                     <option value="" disabled selected>Gender</option>
                     <option value="man">Man</option>
                     <option value="woman">Vrouw</option>
@@ -85,7 +86,7 @@
 
             <div class="form-field">
                 <label for="subject">Onderwerp:</label>
-                <select id="subject" name="subject" required>
+                <select id="subject" name="subject">
                     <option value="" disabled selected>Kies onderwerp van het bericht..</option>
                     <option value="question">Vraag</option>
                     <option value="problem">Probleem</option>

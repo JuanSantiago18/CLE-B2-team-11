@@ -20,8 +20,6 @@ body p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 0 10px;
     height: 50px;
     padding: 0 16px;
     box-sizing: border-box;
@@ -39,19 +37,19 @@ body p {
     gap: 5px;
 }
 
+
 .navRight {
-    display: inline-flex;
-    gap: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
-    white-space: nowrap;
+    gap: 5px;
+    margin-right: 0;
 }
 
 .navRight a:nth-child(2) {
     color: #365E84;
     font-weight: bold;
     padding: 10px;
+
 }
 
 .navRight a:nth-child(2):hover {
@@ -66,7 +64,6 @@ body p {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-    padding: 10px;
     color: black;
     padding: 10px 16px;
     border-radius: 15px;
@@ -101,8 +98,8 @@ body p {
 
 .smallText {
     color: #365E84;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-family: Inter Semi Bold (600);
+    font-weight: bold;
 }
 
 .main a {
@@ -149,7 +146,6 @@ body p {
 .Main2Right {
     flex: 1;
     background-color: white;
-    border-radius: 15px;
     padding: 10px 30px 10px 30px;
 }
 
@@ -304,6 +300,7 @@ footer {
     font-size: 18px;
     font-weight: 600;
     color: #202C39;
+
 }
 
 .footermiddle {
@@ -407,6 +404,7 @@ footer {
     text-decoration: none;
     color: white;
     background-color: black;
+
 }
 
 .dark-mode .navBar a:hover {
@@ -446,10 +444,15 @@ footer {
     transition: fill 0.3s ease, stroke 0.3s ease;
 }
 
+
 .dark-mode .social-icon svg {
     fill: white;
     stroke: #365E84;
 }
+
+
+
+
 
 @media (max-width: 768px) {
 

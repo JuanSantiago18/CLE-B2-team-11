@@ -1,78 +1,68 @@
-.title{
-   font-family: 'Inter', sans-serif;
-   font-size: 20px;
-}
-.navRight{
-   font-family: 'Inter', sans-serif;
-   font-size: 15px;
-}
-
-.main-text {
-    text-align: center;
-    padding: 80px;
-    font-family: 'Inter', sans-serif;
-
-}
-
-.form-text{
-     font-family: 'Inter', sans-serif;
-
-}
-
-.form-container{
-     font-family: 'Inter', sans-serif;
+body {
+    background-color: #EBF1F5;
 }
 
 .navBar {
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-left: 0;
-    padding-right: 0;
     align-items: center;
     height: 50px;
-    border-bottom: #cfd0d1 solid 1px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
 }
 
-.navLeft {
-    padding: 20px;
+.sitelogo {
+    height: 30px;
+    width: 90px;
 }
 
 .navRight {
-    display: inline-flex;
-    gap: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 0;
 }
 
 .navRight a:nth-child(2) {
     color: #365E84;
     font-weight: bold;
+    padding: 10px;
+
 }
 
+.navRight a:nth-child(2):hover {
+    color: white;
+    background-color: #365E84;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
 .navBar a {
-    display: flex;
+    display: inline-flex;
+    align-items: center;
     text-decoration: none;
-    color: #202C39;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 15px;
+    box-sizing: border-box;
 }
 
 .navBar a:hover {
     background-color: #365E84;
     color: white;
-    padding: 10px;
+    padding: 10px 16px;
     border-radius: 15px;
 }
 
-h2 {
+.main-text {
     text-align: center;
-    font-size: 2rem;
-}
-.main-text{
-    text-align : center;
     padding: 80px;
 }
 
-.email-adres input{
-    width: 250px;
+.email-adres input {
     border: 1px solid #cfd0d1;
     border-radius: 6px;
     padding: 6px;
@@ -81,6 +71,11 @@ h2 {
 .email-adres input:focus {
     border-color: #365E84;
     outline: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
 }
 
 .form-container {
@@ -94,6 +89,14 @@ h2 {
 label {
     color: #202C39;
     font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 20rem;
 }
 
 input, textarea {
@@ -120,6 +123,11 @@ input:focus, textarea:focus {
     font-weight: 500;
 }
 
+.red-button:hover {
+    background-color: darkgray;
+    color: #365E84;
+}
+
 input:user-invalid:not(:focus):not(:placeholder-shown){
     border: 2px solid red;
 
@@ -128,9 +136,4 @@ input:user-invalid:not(:focus):not(:placeholder-shown){
 
 input:user-valid{
     border:2px solid black;
-}
-
-.red-button:hover {
-    background-color: darkgray;
-    color: #365E84;
 }
