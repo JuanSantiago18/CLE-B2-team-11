@@ -44,7 +44,7 @@ body {
     padding: 80px;
 }
 
-.email-adres input{
+.email-adres input {
     width: 250px;
     border: 1px solid #cfd0d1;
     border-radius: 6px;
@@ -54,6 +54,8 @@ body {
 .email-adres input:focus {
     border-color: #365E84;
     outline: none;
+}
+
 h2 {
     text-align: center;
     font-size: 2rem;
