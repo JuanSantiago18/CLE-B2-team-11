@@ -101,6 +101,21 @@ body p {
     font-family: Inter Semi Bold (600);
     font-weight: bold;
 }
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main img{
+    width: 300px;
+    margin-right: 10rem;
+    border-radius: 5%;
+}
+
+.main div{
+    gap: 20px;
+}
 
 .main a {
     align-self: flex-start;
@@ -147,6 +162,12 @@ body p {
     flex: 1;
     background-color: white;
     padding: 10px 30px 10px 30px;
+    border-radius: 50%;
+    
+}
+
+.Main2Right p{
+    padding-left: 30px;
 }
 
 .image-container {
@@ -185,7 +206,11 @@ body p {
 
 .m2Right {
     color: #365E84;
+    padding-left: 30px;
 }
+
+
+
 
 .main3 {
     display: flex;
