@@ -508,8 +508,7 @@ footer {
     }
 
     .image-container img {
-        width: 100%;
-        max-width: 100%;
+        width: 200px;
         height: auto;
     }
 
@@ -646,10 +645,13 @@ header {
 .image-container {
     padding-top: 16px;
     padding-bottom: 24px;
+    display: flex;
+    justify-content: end;
+    margin-right: 15rem;
 }
 
 .image-container img {
-    width: 100%;
+    width: 300px;
     max-width: 100%;
     height: auto;
 }
